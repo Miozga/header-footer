@@ -42,7 +42,7 @@ a {decoration: none}
 
 header {  margin-top: 20px; height:28px; display:flex; justify-content: space-between;}
 
-.header-brand {display: flex; align-items: center;}
+.header-brand {display: flex; align-items: center; width: 325px;}
 .header-container { width:
 
 
@@ -59,17 +59,10 @@ header {  margin-top: 20px; height:28px; display:flex; justify-content: space-be
   display: flex;
   margin-top: 10px;
 }
-.header-nav {}
+
 .header-nav-button { display: flex;justify-content: end;}
 .header-nav-desktop ul{ display: flex; align-items: center; justify-content: space-around;}
 .js-open-menu{}
-  .hamburger-icon{}
-  .header-menu{}
-  .header-social{}
-  .header-icon-social{}
-  .header-nav-desktop{}
-  nav{}
-  .header-position-social{}
   .footer {
      display: flex;
   flex-direction: column;
@@ -85,16 +78,12 @@ header {  margin-top: 20px; height:28px; display:flex; justify-content: space-be
   .footer {color: var(--background-color);}
   .footer-container{ }
   .footer-chocolate {color: var(--logo-color);}
-  .footer-contact{}
-  .footer-mail{}
-  .footer-tel{}
-  .footer-social-links{}
-  .footer-social-position{}
+
   .footer-icon {
   width: 22px;
   height: 22px;
 }
-.footer-nav {}
+
 .footer-menu {}
 @media screen and (min-width: 768px) {
   header {height: 32px;}
@@ -163,4 +152,3 @@ width: 704px;}
   display: flex;
   justify-content: flex-end;
 }
-.hamburger-social-link .hamburger-icon{} .hamburger-social-position{}
