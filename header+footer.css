@@ -38,14 +38,12 @@ body {
   overflow-x: hidden;
 }
 a {decoration: none}
-/*------------header*/
+/*----------------------------------------------------------------------------------header*/
 
 header {  margin-top: 20px; height:28px; display:flex; justify-content: space-between;}
 footer {background-color: var(--accent-background);}
 .header-brand {display: flex; align-items: center; width: 325px;}
 .header-container { width:
-
-
 }
 .header-nav-desktop {
   display: none;
@@ -63,6 +61,9 @@ footer {background-color: var(--accent-background);}
 .header-nav-button { display: flex;justify-content: end;}
 .header-nav-desktop ul{ display: flex; align-items: center; justify-content: space-around;}
 .js-open-menu{}
+/*--------------------------------------------------------------------------footer*/
+
+
 
   .footer-menu { display: flex; flex-direction: column; justify-content: left;}
   .footer-title { width: 300px; height: 56px; text-wrap: wrap; padding-top: 32px;}
@@ -78,6 +79,9 @@ footer {background-color: var(--accent-background);}
 .footer-contact li a{color: var(--background-color); }
 .footer-title p {color:var(--background-color) ;}
 .footer-h2 { color:var(--background-color);padding-top: 20px; }
+
+
+
 /*===================================================================TABLET*/
 @media screen and (min-width: 768px) {
   header {height: 32px;}
@@ -85,12 +89,12 @@ footer {background-color: var(--accent-background);}
 width: 704px;}
   .header-menu {display: none; gap:24px}
   .footer-nav { width:532px ; height: 16px;justify-items: left;}
-.footer-container { flex-direction: row; justify-content: space-between;}
+.footer-container { display:flex; flex-direction: row; justify-content: space-between;}
   .footer-menu {flex-direction: row; display: flex;justify-content: space-between;}
 }
 
 
-
+/*-------------------------------------------------------------------desktop*/
 
 @media screen and (min-width: 1200px) {
   .container {
@@ -102,7 +106,7 @@ width: 704px;}
   .header-nav-desktop {display: block;}
 }
 
-/*-------------------------menu hamburger*/
+/*------------------------------------------------------------------------menu hamburger*/
 .menu-wrapper {
   overflow-y: auto;
   position: fixed;
