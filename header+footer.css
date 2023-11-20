@@ -79,7 +79,7 @@ footer {background-color: var(--accent-background);}
 .footer-contact li a{color: var(--background-color); }
 .footer-title p {color:var(--background-color) ;}
 .footer-h2 { color:var(--background-color);padding-top: 20px; }
-
+a:hover{cursor: pointer; color: var(--logo-color);}
 
 
 /*===================================================================TABLET*/
@@ -92,8 +92,8 @@ width: 704px;}
 .footer-container { display:flex; flex-direction: row; justify-content: space-between;}
   .footer-menu {flex-direction: row; display: flex;justify-content: space-between;}
 }
-
-
+.menu-wrapper {width: 35%;}
+.hamburger-menu {padding-top: 156px; margin-left: auto; margin-right: auto;}
 /*-------------------------------------------------------------------desktop*/
 
 @media screen and (min-width: 1200px) {
@@ -104,6 +104,7 @@ width: 704px;}
     flex-direction: row; gap: 24px; justify-content: space-between;
   }  
   .header-nav-desktop {display: block;}
+  
 }
 
 /*------------------------------------------------------------------------menu hamburger*/
@@ -146,8 +147,7 @@ width: 704px;}
 }
 .hamburger-menu {padding-top: 136px;
 }
-.hamburger-container {
-}
+
 .hamburger-social-links {
   display: flex;
   justify-content: flex-end;
