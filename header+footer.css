@@ -144,7 +144,7 @@ width: 704px;}
   cursor: pointer;
   border: none;
 }
-.hamburger-menu {
+.hamburger-menu {padding-top: 136px;
 }
 .hamburger-container {
 }
