@@ -149,7 +149,9 @@ footer {
   padding-top: 20px;
   font-size: 14px;
 }
-a:hover {
+.footer-menu a:hover {
+  cursor: pointer;
+  color: var(--logo-color);
 }
 .hamburger-menu a:hover {
   cursor: pointer;
