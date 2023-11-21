@@ -161,6 +161,7 @@ a:hover {
 }
 .footer-line {
   width: auto;
+  height: 1px;
   border-bottom: 1px solid var(--logo-color);
 }
 /*===================================================================TABLET*/
@@ -232,6 +233,10 @@ a:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 24px;
+  }
+  .header-menu a:hover {
+    cursor: pointer;
+    color: var(--logo-color);
   }
   .header-nav-desktop {
     display: flex;
