@@ -61,7 +61,7 @@ footer {
   height: 21px;
   flex-wrap: wrap;
   gap: 4px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .header-position-social {
@@ -209,7 +209,7 @@ footer {
   .header-brand {
     width: 213px;
     height: 24px;
-    font-size: 18px;
+    font-size: 14px;
   }
   .container {
     width: 704px;
@@ -282,6 +282,7 @@ footer {
   .header-brand {
     width: 213px;
     height: 24px;
+    font-size: 18px;
   }
   .footer {
     height: 270px;
